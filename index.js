@@ -25,9 +25,9 @@ const gitNeedsPull = (altPath = cwd, { remote, branch } = {}) => {
     let lastCommonCommitExec;
 
     if (platform() === 'win32') {
-      localCommitExec = `pushd ${thisPath} & git rev-parse "@")`;
-      remoteCommitExec = `pushd ${thisPath} & git rev-parse ${r}/${b})`;
-      lastCommonCommitExec = `pushd ${thisPath} & git merge-base "@" ${r}/${b})`;
+      localCommitExec = `pushd ${thisPath} & git rev-parse "@"`;
+      remoteCommitExec = `pushd ${thisPath} & git rev-parse ${r}/${b}`;
+      lastCommonCommitExec = `pushd ${thisPath} & git merge-base "@" ${r}/${b}`;
     } else {
       localCommitExec = `(cd ${thisPath} ; git rev-parse "@")`;
       remoteCommitExec = `(cd ${thisPath} ; git rev-parse ${r}/${b})`;

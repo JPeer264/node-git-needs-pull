@@ -1,6 +1,6 @@
 {
   "name": "git-needs-pull",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Check synchronously if a git repository needs to pull",
   "main": "build.js",
   "scripts": {

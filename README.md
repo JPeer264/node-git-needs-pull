@@ -3,7 +3,7 @@
 [![Build Status](https://travis-ci.org/JPeer264/node-git-needs-pull.svg?branch=master)](https://travis-ci.org/JPeer264/node-git-needs-pull)
 [![Build status](https://ci.appveyor.com/api/projects/status/y3si9db1ynq9mlel/branch/master?svg=true)](https://ci.appveyor.com/project/JPeer264/node-git-needs-pull/branch/master)
 
-Check synchronously if a git repository needs to push.
+Check synchronously if a git repository needs to pull.
 
 ## Installation
 

@@ -1,3 +1,7 @@
+2.1.0 - August, 05 2020
+
+* 8f10c17 Feat: update library to new version (JPeer264)
+
 2.0.0 - March, 19 2020
 
 * 4c7d4f2 Chore: update appveyor.yml (JPeer264)
